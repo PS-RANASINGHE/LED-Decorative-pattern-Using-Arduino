@@ -15,6 +15,6 @@ This Arduino sketch controls 7 digital output pins (D1 to D7) in various pattern
 
 - Arduino UNO (or compatible)
 - 7 Outputs (connected to digital pins 1 to 7)
-- 220-ohm resistors (one per LED)
+- 220-ohm resistors 
 - Breadboard and jumper wires
 
