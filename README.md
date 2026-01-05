@@ -29,9 +29,9 @@ This Arduino sketch controls **7 digital outputs** and plays multiple animation 
 ### If you are controlling 230V LED lights (mains)
 > **Important:** Arduino pins must **NOT** be connected directly to 230V.
 Use proper isolation:
-- Relay module / SSR (Solid State Relay) **rated for 230V**
-- Driver/transistor circuit (if required by relay)
-- Proper insulation, enclosure, and wiring safety precautions
+- Relay module -- SSR (Solid State Relay) **rated for 230V**
+- Transistor circuit 
+- Proper insulation, enclosure. Remember Safty first :)
 
 ---
 
@@ -52,7 +52,7 @@ If you face upload issues, consider moving outputs to other pins (ex: D2–D8) a
 
 ---
 
-## 🧠 How the code works (simple)
+## 🧠 How the code works (it's simple)
 
 ### Key settings
 - `first = 1` and `last = 7` → the output pin range
