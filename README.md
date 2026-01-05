@@ -47,7 +47,7 @@ Repeat for **D1 to D7**.
 ✅ Pins used in this sketch: **1, 2, 3, 4, 5, 6, 7**
 
 > Note: Digital pins **0 and 1** are normally used for Serial communication on Arduino UNO.
-This sketch uses **D1**, which can sometimes affect uploading/serial monitoring.
+This sketch uses **D1**, which can sometimes affect uploading.
 If you face upload issues, consider moving outputs to other pins (ex: D2–D8) and update `first` and `last`.
 
 ---
